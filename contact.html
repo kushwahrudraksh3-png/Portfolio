@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Rudraksh Kushwah</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="navbar">
+    <div class="container nav-wrap">
+      <a class="logo" href="index.html">Portfolio.</a>
+      <button class="menu-btn" aria-label="Toggle Menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="projects.html">Projects</a>
+        <a class="active" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <h1 class="section-title reveal">Contact</h1>
+      <p class="section-subtitle reveal">
+        Have a project in mind? Let's connect and discuss how we can build
+        something impactful together.
+      </p>
+
+      <div class="contact-grid">
+        <section class="contact-info glass reveal">
+          <h3 style="margin-bottom: 1rem">Contact Info</h3>
+          <div class="contact-items">
+            <p class="contact-item">
+              <i class="fa-solid fa-phone"></i>
+              <a href="#">+91 9343713134</a>
+            </p>
+            <p class="contact-item">
+              <i class="fa-solid fa-envelope"></i>
+              <a href="mailto:kushwarudraksh3@gmail.com">kushwarudraksh3@gmail.com</a>
+            </p>
+            <p class="contact-item">
+              <i class="fa-brands fa-linkedin-in"></i>
+              <a href="https://www.linkedin.com/in/rudraksh-kushwah-0601b33ba/" target="_blank"
+                rel="noopener noreferrer">LinkedIn Profile</a>
+            </p>
+            <p class="contact-item">
+              <i class="fa-brands fa-github"></i>
+              <a href="https://github.com/kushwahrudraksh3-png">GitHub</a>
+            </p>
+            <p class="contact-item">
+              <i class="fa-brands fa-instagram"></i>
+              <a href="https://www.instagram.com/__rudraksh_001_/">Instagram</a>
+            </p>
+          </div>
+        </section>
+
+        <section class="contact-form glass reveal">
+          <h3 style="margin-bottom: 1rem">Send Message</h3>
+          <form id="contact-form" name="contact" method="POST" data-netlify="true">
+
+            <input type="hidden" name="form-name" value="contact">
+
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input type="email" name="email" placeholder="Your Email" required />
+            <textarea name="message" placeholder="Your Message" required></textarea>
+
+            <button type="submit" class="btn btn-primary">Send Message</button>
+
+          </form>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-wrap">
+      <p>&copy; <span id="year"></span> Rudraksh Kushwah</p>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/rudraksh-kushwah-0601b33ba/" target="_blank" rel="noopener noreferrer"
+          aria-label="LinkedIn">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+        <a href="https://github.com/kushwahrudraksh3-png" aria-label="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://www.instagram.com/__rudraksh_001_/" aria-label="Instagram">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
