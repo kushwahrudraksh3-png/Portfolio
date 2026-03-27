@@ -69,9 +69,12 @@
 
         <section class="contact-form glass reveal">
           <h3 style="margin-bottom: 1rem">Send Message</h3>
-          <form name="contact" method="POST" data-netlify="true" action="/success.html">
+          <form name="contact" method="POST" data-netlify="true">
 
             <input type="hidden" name="form-name" value="contact" />
+
+            <!-- THIS IS IMPORTANT -->
+            <input type="hidden" name="redirect" value="/success.html" />
 
             <input type="text" name="name" placeholder="Your Name" required />
 
